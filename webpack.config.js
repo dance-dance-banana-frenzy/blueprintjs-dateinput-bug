@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = function() {
   return {
     mode: 'development',
+    devtool: 'cheap-module-source-map',
     entry: './src/index.js',
     plugins: [
       new HtmlWebpackPlugin()
