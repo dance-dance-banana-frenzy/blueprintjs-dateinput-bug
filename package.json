@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dance-dance-banana-frenzy/blueprintjs-dateinput-bug#readme",
   "dependencies": {
-    "@blueprintjs/datetime": "^3.23.18"
+    "@blueprintjs/datetime": "^3.23.18",
+    "react": "^17.0.2"
   }
 }
