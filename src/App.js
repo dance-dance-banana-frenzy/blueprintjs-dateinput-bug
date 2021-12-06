@@ -12,7 +12,7 @@ const now = new Date();
 
 const App =  () => {
   
-  const [value, setValue] = useState(now);
+  const [value, setValue] = useState(null);
   
   const onChange = value => {
     setValue(value);
@@ -23,7 +23,7 @@ const App =  () => {
       value={value}
       onChange={onChange}
       maxDate={now}
-      placeholder={FORMAT}
+      placeholder={FORMAT.toUpperCase()}
       parseDate={parseDate}
       formatDate={formatDate}
     />
