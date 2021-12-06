@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dance-dance-banana-frenzy/blueprintjs-dateinput-bug/issues"
   },
-  "homepage": "https://github.com/dance-dance-banana-frenzy/blueprintjs-dateinput-bug#readme"
+  "homepage": "https://github.com/dance-dance-banana-frenzy/blueprintjs-dateinput-bug#readme",
+  "dependencies": {
+    "@blueprintjs/datetime": "^3.23.18"
+  }
 }
